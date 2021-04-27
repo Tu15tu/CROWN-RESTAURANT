@@ -1,0 +1,52 @@
+h2 {
+    font-size:500%;
+    padding-bottom: 0px;
+    }
+header section {
+    font-size: 480%;
+}
+nav a {
+    padding-right: 35px;
+    font-size:45px;
+}
+.special {
+    padding-right: 25px;
+}
+h1 {
+    font-size: 100px;
+    padding-top: 70px; 
+}
+p {
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 45px;
+}
+main a {
+    font-size: 50px;
+}
+.d1 {
+    padding-top: 3px;
+}
+.d2 {
+    padding-top: 10px;
+   }
+.add1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.add2 {
+    font-size: 30px;
+    line-height: 37px;
+}
+.add3 {
+    font-size: 42px;
+}
+.add4 {
+    font-size: 33px;
+}
+.add5 {
+   font-size: 25px;
+}
+.add6 {
+    font-size: 27px;
+}

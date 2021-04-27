@@ -1,0 +1,49 @@
+h2 {
+    font-size:260%;
+    }
+header section {
+    font-size: 220%;
+}
+nav a {
+    padding-right: 20px;
+    font-size: 16px;
+}
+.special {
+    padding-right: 10px;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: 25px;
+}
+main a {
+    font-size: 28px;
+}
+.d1 {
+    padding-top: 10px;
+}
+.d2 {
+    padding-top: 15px;
+   }
+.add1 {
+    font-size: 30px;
+}
+.add2 {
+    font-size: 15px;
+    line-height: 18px;
+}
+.add3 {
+    font-size: 22px;
+}
+.add4 {
+    font-size: 16px;
+}
+.add5 {
+   font-size: 12px;
+}
+.add6 {
+    font-size: 13px;
+}
