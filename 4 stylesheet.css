@@ -1,3 +1,5 @@
+/* stylesheet for min-width:1900px */
+
 h2 {
     font-size:500%;
     padding-bottom: 0px;
@@ -49,4 +51,15 @@ main a {
 }
 .add6 {
     font-size: 27px;
+}
+.content {
+    font-size: 120px;
+}
+.close-btn {
+    font-size: 35px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+#new {
+    font-size: 34px;
 }

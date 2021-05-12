@@ -1,3 +1,5 @@
+/* stylesheet for min-width:1150px */
+
 h2 {
     font-size:330%;
     padding-bottom: 0px;
@@ -10,7 +12,7 @@ nav {
 }
 nav a {
     padding-right: 25px;
-    font-size: 20px;
+    font-size: 24px;
 }
 .special {
     padding-right: 15px;
@@ -19,36 +21,48 @@ h1 {
     font-size: 65px;
 }
 p {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     font-size: 30px;
 }
 main a {
     font-size: 34px;
 }
 .d1 {
-    padding-top: 0px;
+    padding-top: 5px;
 }
 .d2 {
-    padding-top: 10px;
+    padding-top: 15px;
    }
 .add1 {
     font-size: 35px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
 }
 .add2 {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 23px;
 }
 .add3 {
-    font-size: 25px;
+    font-size: 27px;
 }
 .add4 {
-    font-size: 18px;
+    font-size: 22px;
 }
 .add5 {
-   font-size: 14px;
+   font-size: 18px;
 }
 .add6 {
     font-size: 15px;
+}
+
+.content {
+    font-size: 70px;
+}
+.close-btn {
+    font-size: 20px;
+    width: 50px;
+    
+}
+#new {
+    font-size: 21px;
 }
