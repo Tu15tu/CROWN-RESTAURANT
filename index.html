@@ -7,16 +7,14 @@
     <title>Crown Restaurant</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (min-width:700px)" href="1 stylesheet.css">
-    <link rel="stylesheet" media="screen and (min-width:1150px)" href="2 stylesheet.css">
+    <link rel="stylesheet" media="screen and (min-width:1024px)" href="2 stylesheet.css">
     <link rel="stylesheet" media="screen and (min-width:1500px)" href="3 stylesheet.css">
     <link rel="stylesheet" media="screen and (min-width:1900px)" href="4 stylesheet.css">
     <link rel="stylesheet" media="screen and (max-width:290px)" href="5 stylesheet.css">
     <link rel="stylesheet" media="screen and (min-width:2200px)" href="6 stylesheet.css">
-  
-
-
     <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Sonsie+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  
 </head>
 <body>
     <div class="container">
@@ -48,23 +46,30 @@
             </div>
             <div class="d2">
                  <section class="add3">Join our Mailing List</section>
-                    <section>
-                        <form action="https://www.google.com/">
-                        <input class="add4" type="text" placeholder="email address">
-                        <button class="add5" type="sign up">sign up</button>
-                    </form>
+                    <section id="demo">
+                        <form id="signupForm">
+                        <input id="email" class="add4" type="email" placeholder="Email address" name="email">
+                        <div class="popup" id="popup-1">
+                            <div class="overlay"></div>
+                            <div class="content">
+                               Thank you for signing up!
+                                <div class="close-btn" 
+                                onclick="togglePopup(), myFunction()">OK
+                                </div>
+                            </div>
+                            </div>
+                            <button id="signupBtn" disabled="disabled" type="button" onclick="togglePopup()" class="add5">sign up</button>
+                </form>
                  </section>
+                 <div id="new"></div>
             </div>
             <div class="d3"> 
                 <section class="add6">©2021 crown restaurant | <a class="extra" href="https://www.google.com/">privacy policy</a></section>
             </div>
-          
-
-
-
         </div>
     </footer>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
 
